@@ -17,3 +17,11 @@ Si no los dejamos en su posicion y pasamos al siguiente par.
 Esto hasta lllegar a ordenarlo así: [17,33,41,61,80]
 
 
+# **Sucesión de Fibonacci:** Se trata en sumar los primeros dos digitos anteriores.
+Por ejemplo, si tenemos una sucesion de 1,2 el siguiente numero seria las suma de ambos que serai 3
+por ejemplo si queremos hacer una lista pues empezariamos con el indice 0 donde te devolveria el 0
+El indice 1 que te devolveria el 1
+Pero en el indice 2 como es mayor de uno tenemos que sumar 1+0: (2-1)+(2-2)
+Esto seguria siendo 3: 2+1:(3-1)+1+0=3
+En este progrma podemos ver que esta sucesion se cumple en todos los valores aunque hay un error de recursividad si  superas n=30
+## El programa coje un numero entero  n que luego lo pasamos por la funcion recursiva Fibonacci que si es n>1 te devuelve una funcion recursiva que es: fibonacci(n-1) + fibonacci(n-2)
