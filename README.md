@@ -25,3 +25,11 @@ Pero en el indice 2 como es mayor de uno tenemos que sumar 1+0: (2-1)+(2-2)
 Esto seguria siendo 3: 2+1:(3-1)+1+0=3
 En este progrma podemos ver que esta sucesion se cumple en todos los valores aunque hay un error de recursividad si  superas n=30
 ## El programa coje un numero entero  n que luego lo pasamos por la funcion recursiva Fibonacci que si es n>1 te devuelve una funcion recursiva que es: fibonacci(n-1) + fibonacci(n-2)
+
+
+
+# **Book:**
+**Muchas presonas les gusta leer *libros*:**entonces nos piden programar un programa en python donde se vea el nombre del autor el titulo del libro y la fecha de publicacion:
+Luego tenemos que tambien programar una super clase Ebook para las personas muy bagas para ir a una bibliteca para leer el libro.
+Entonces añadimos en el constructor el formato del libro para las personas que lo quieran leer en su ordenador o movil.
+
